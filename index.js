@@ -5,7 +5,7 @@ document.getElementById("mySubmit").onclick = function(){
     // user = document.getElementById("mySubmit").onclick = function(){
     //     console.log("");
     // }
-    document.getElementById("myH1").textContent = `Welcome ${user},`
+    document.getElementById("myH1").textContent = `Greetings ${user},`
 }
 //Noob i am.
 // const pi=22/7;
