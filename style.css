@@ -1,22 +1,41 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000;
-    font-size: 1em;
+    color: #fff;
+    /* font-size: 1em; */
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, orange, red);
+    background-color: #000;
+}
+p{
+    font-style: italic;
 }
 input{
     height: 30px;
     width: 300px;
-    border: #fff
+    border:#000
 }
 button{
-    height: 30px;
+    height: 35px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 100px;
     background-color: #fff;
+    border: rgba(#000,0,0,0.6);
+    padding: 0;
+    margin: 0;
 }
 button:hover{
-    background-color: rgba(#fff,0,0,0.6);
+    background-color: rgba(#000,0,0,0.6);
+}
+marquee{
+    color: red;
+    font-style: bold;
+}
+marquee{
+    animation:infinite;
+    animation-duration: 200ms;
+}
+@media (max-width:624px) {
+    body{
+        width: 100vw;
+    }
 }
